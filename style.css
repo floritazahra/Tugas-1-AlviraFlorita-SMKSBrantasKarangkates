@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7b6cc;
+    color: #513746;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.card {
+    background-color: #fff3f7;
+    width: 500px;
+    padding: 60px 65px;
+    border-radius: 30px;
+
+    border: 2px solid #e99ab8;
+
+    box-shadow: 0 8px 20px rgba(180, 80, 120, 0.15);
+}
+
+h1 {
+    color: #d94f7d;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.salam {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.intro {
+    color: #9b5872;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #d94f7d;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.55;
+}
+
+ul {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.email {
+    background-color: #f3a9c5;
+    padding: 18px 20px;
+    border-radius: 15px;
+
+    font-size: 20px;
+    margin-top: 35px;
+    color: #704054;
+}
